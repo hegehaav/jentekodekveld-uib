@@ -27,3 +27,29 @@
 .img {
     height: 100vh;
 }
+
+.imgs-container {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.verksted-img {
+    height: 300px;
+    margin-right: 20px;
+}
+.verksted-img2 {
+    height: 220px;
+    margin-right: 20px;
+}
+
+.employees {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.employee-img {
+    width: 250px;
+    border-radius: 30%;
+}
