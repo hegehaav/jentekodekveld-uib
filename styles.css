@@ -1,0 +1,29 @@
+.options {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+.option {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    color: white;
+}
+
+.first-option {
+    background-color: #234099;
+    transition: background-color 0.5s ease-in-out;
+}
+.second-option {
+    background-color: rgb(168, 45, 107);
+    transition: background-color 0.5s ease-in-out;
+}
+
+.img {
+    height: 100vh;
+}
